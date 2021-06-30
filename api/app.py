@@ -31,23 +31,6 @@ def predict(acousticness,
         valence,
         artist):
 
-    dico_X = {acousticness:[float(acousticness)],
-                danceability:[float(danceability)],
-                duration_ms:[int(duration_ms)],
-                energy:[float(energy)],
-                explicit:[int(explicit)],
-                id:[id],
-                instrumentalness:[float(instrumentalness)],
-                key:[int(key)],   
-                liveness:[float(liveness)],
-                loudness:[float(loudness)],
-                mode:[int(mode)],
-                name:[name],
-                release_date:[release_date],
-                speechiness:[float(speechiness)],
-                tempo:[float(tempo)],   
-                valence:[float(valence)],
-                artist:[artist]}
 
     dico_X=dict(acousticness=[float(acousticness)],
                           danceability=[float(danceability)],
